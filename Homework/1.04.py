@@ -15,3 +15,19 @@ elif num == 4:
     print('x > 0 и y < 0')
 else:
     print("Ошибка ввода")
+
+# еще один вариант
+
+quarter = input()
+
+match quarter:
+    case "1":
+        print("x > 0, y > 0")
+    case "2":
+        print("x < 0, y > 0")
+    case "3":
+        print("x < 0, y < 0")
+    case "4":
+        print("x > 0, y < 0")
+    case _:
+        print("error")
