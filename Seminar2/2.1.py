@@ -31,4 +31,6 @@ for i in range(n):
     print(seq_n, end=' ')
     seq_n*=-3
 
+    
+
 

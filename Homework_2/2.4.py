@@ -24,3 +24,15 @@ if 1 <= n1 <= l and 1 <= n2 <=l:
     print(product_poz)
 else:
     print('Нет значений для этих позиций')
+ 
+# Задание №5
+Some_list = list(range(33, 45))
+
+print(Some_list)
+for i, val in enumerate(Some_list):
+    j = randrange(len(Some_list))
+    Some_list[i], Some_list[j] = Some_list[j], Some_list[i]
+
+print(Some_list)
+
+
